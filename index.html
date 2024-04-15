@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen"/>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário StackX</h1>
+    </header>
+    <div class="container-form">
+        <h2>Preencha o formulário abaixo e teste seus conhecimentos!</h2>
+        <form>
+            <label for="perg1">
+                1-) Pergunta: Em que ano surgiu o Java Script?
+                <br>
+                <input type="number" id="perg1" name="perg1">
+            </label>
+            <br>
+            <label for="perg2">
+                2-) Pergunta: Qual sistema operacional mais usado no mundo?
+                <br>
+                <input type="text" id="perg2" name="perg2">
+            </label>
+            <br>
+            <label for="perg3">
+                3-) Pergunta: Em que ano surgiu o PHP?
+                <br>
+                <input type="number" id="perg3" name="perg3">
+            </label>
+            <br>
+            <label for="perg4">
+                4-) Pergunta: Quando o Facebook foi criado?
+                <br>
+                <input type="number" id="perg4" name="perg4">
+            </label>
+            <br>
+            <label for="perg5">
+                5-) Pergunta: Em que ano Steve Jobs criou o iPhone?
+                <br>
+                <input type="number" id="perg5" name="perg5">
+            </label>
+            <br>
+            <button type="submit" id="botaoEnviar" onclick="capturarResposta()">Enviar respostas</button>
+        </form>
+    </div>
+    <div class=" container-resutado">
+        <h2 id="resultado"></h2>
+    </div>
+    <script src="/inde.js"></script>
+</body>
+</html>
